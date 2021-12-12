@@ -1,0 +1,42 @@
+
+
+line1_name: "2112"
+line1_shortname: "2112"
+line1_displayname: "2112"
+line1_authname: "2112"
+line1_password: "1234abc"
+
+# Line 2 Registration Information
+line2_name: ""						; Extension number
+line2_authname: "UNPROVISIONED"					; Extension number
+line2_shortname: ""					; Name that appears on the screen, please set this line to autoanswer
+line2_password: "UNPROVISIONED"					; Seceret Password
+
+line2_displayname: ""					;
+
+
+#proxy_emergency: "UNPROVISIONED" 
+#proxy_emergency_port: "5060" 
+#proxy_backup: "UNPROVISIONED" 
+#proxy_backup_port: "5060" 
+#outbound_proxy: "UNPROVISIONED" 
+#outbound_proxy_port: "5060" 
+
+#nat_enable: "1" 
+#nat_address: "192.168.1.25" 
+#voip_control_port: "5060" 
+#start_media_port: "16348" 
+#end_media_port:  "20134" 
+#nat_received_processing: "0" 
+#trying changing this from 0 to 1
+
+phone_label: "Niks Cave "
+#time_zone: GMT
+#logo_url: "http://domain.ext/imagefile.bmp"
+
+telnet_level: "2" 
+phone_prompt: "niks_cave"
+phone_password: "12341234" 
+#enable_vad: "0" 
+#network_media_type: "auto" 
+#user_info: phone

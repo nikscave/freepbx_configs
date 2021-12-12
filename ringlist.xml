@@ -1,0 +1,6 @@
+<CiscoIPPhoneRingList>
+ <Ring>
+  <DisplayName>CTU24</DisplayName> 
+  <FileName>CTU24raw.raw</FileName> 
+  </Ring>
+</CiscoIPPhoneRingList>

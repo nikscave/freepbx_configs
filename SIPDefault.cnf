@@ -1,0 +1,82 @@
+
+image_version: "P0S3-8-12-00"
+phone_label: "Niks Cave "
+proxy1_address: "192.168.1.25"
+#proxy2_address: ""
+#proxy3_address: ""
+#proxy4_address: ""
+#proxy5_address: ""
+#proxy6_address: ""
+ 
+# Proxy Server Port
+proxy1_port:"5160"
+# proxy2_port:"5060"
+# proxy3_port:"5060"
+# proxy4_port:"5060"
+
+proxy_emergency: ""
+proxy_emergency_port: "5060"
+proxy_backup: ""
+proxy_backup_port: "5060"
+outbound_proxy: ""
+outbound_proxy_port: "5060"
+ 
+nat_enable: "0"
+nat_address: ""
+voip_control_port: "5060"
+start_media_port: "16348"
+end_media_port:  "20134"
+nat_received_processing: "0"
+dyn_dns_addr_1: ""
+dyn_dns_addr_2: ""
+dyn_tftp_addr: "192.168.1.25"
+tftp_cfg_dir: "./"
+
+proxy_register: 1
+timer_register_expires: "120"
+preferred_codec: "g711alaw"
+#preferred_codec: "none"
+tos_media: "5"
+enable_vad: "0"
+dial_template: "dialplan"
+network_media_type: "auto"
+autocomplete: "1"
+telnet_level: "2"
+
+cnf_join_enable: "1"
+semi_attended_transfer: "0"
+call_waiting: "1"
+anonymous_call_block: "0"
+callerid_blocking: "0"
+dnd_control: "0"
+
+dtmf_inband: "1"
+dtmf_outofband: "avt"
+dtmf_db_level: "3"
+dtmf_avt_payload: "101"
+timer_t1: "500"
+timer_t2: "4000"
+sip_retx: "10"
+sip_invite_retx: "6"
+timer_invite_expires: "180"
+ 
+
+ 
+messages_uri: "*97"
+#services_url: "http://example.domain.ext/services/menu.xml"
+#directory_url: "http://example.domain.ext/services/directory.php"
+#logo_url: "http://example.domain.ext/imagename.bmp"
+#logo_url: "http://###HTTP_SERVER###/asterisk.bmp"
+#logo_url: ""
+#directory_url: "http://192.168.1.25/cisco_telephone_directory.xml"               
+#logo_url: "http://192.168.1.25/asterisk_tux1.bmp"
+
+http_proxy_addr: ""
+http_proxy_port: 80
+remote_party_id: 0
+
+sntp_mode: unicast
+sntp_server: "192.168.1.25"			; SNTP Server IP Address
+time_zone: "GMT" ; assuming you're in GMT
+time_format_24hr: 1 ; to show the time in 24hour format
+date_format: "D/M/Y"  ; format you would like the date in
